@@ -8,13 +8,13 @@ C  = AE
 ST = Dubai
 L  = Dubai
 O  = joindevops
-CN = daws88s.online
+CN = aitechapp.fun
 
 [v3_req]
 subjectAltName = @alt_names
 
 [alt_names]
-DNS.1 = daws88s.online
-DNS.2 = www.daws88s.online
-DNS.3 = api.daws88s.online
-DNS.4 = app.daws88s.online
+DNS.1 = aitechapp.fun
+DNS.2 = www.aitechapp.fun
+DNS.3 = api.aitechapp.fun
+DNS.4 = app.aitechapp.fun

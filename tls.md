@@ -98,11 +98,11 @@ openssl x509 -req -in csr.pem \
 Copy files to the Nginx SSL directory
 ```bash
 sudo mkdir -p /etc/nginx/ssl
-sudo cp cert.crt    /etc/nginx/ssl/daws88s.online.crt
-sudo cp private.pem /etc/nginx/ssl/daws88s.online.key
+sudo cp cert.crt    /etc/nginx/ssl/aitechapp.fun.crt
+sudo cp private.pem /etc/nginx/ssl/aitechapp.fun.key
 
-sudo chmod 600 /etc/nginx/ssl/daws88s.online.key
-sudo chmod 644 /etc/nginx/ssl/daws88s.online.crt
+sudo chmod 600 /etc/nginx/ssl/aitechapp.fun.key
+sudo chmod 644 /etc/nginx/ssl/aitechapp.fun.crt
 ```
 
 Edit the Nginx config
@@ -127,8 +127,8 @@ cat certificate.crt ca_bundle.crt > fullchain.crt
 
 Copy them into the Nginx SSL directory
 ```bash
-sudo cp fullchain.crt /etc/nginx/ssl/daws88s.online.crt
-sudo cp private.key   /etc/nginx/ssl/daws88s.online.key
+sudo cp fullchain.crt /etc/nginx/ssl/aitechapp.fun.crt
+sudo cp private.key   /etc/nginx/ssl/aitechapp.fun.key
 ```
 
 Test and reload
